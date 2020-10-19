@@ -58,6 +58,19 @@ console.log('JavaScript from js/js.js: up and running!');
         e.preventDefault();
     });
 });
+    
+        
+    /*
+    *  Åben sektioner v. klik-event
+    */
+        $("#nyKaptajn").click(function(){
+            $("#nyt-hold").toggle(666);
+        });
+        
+        $("#TidlKaptajn").click(function(){
+            $("#tidligere-hold").toggle(666);
+            $("#holdKnapper").toggle(666);
+        });
         
         
   }); // document ready end
